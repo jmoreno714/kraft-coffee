@@ -225,15 +225,10 @@
       padding: 100px 2rem 80px;
       position: relative;
       background-color: var(--navy);
-      background-image: radial-gradient(circle, rgba(255,255,255,.07) 1px, transparent 1px);
-      background-size: 28px 28px;
-      /*
-        HERO_BG_IMAGE: para agregar imagen de fondo descomentá y editá:
-        background-image: url('ruta-imagen'), radial-gradient(circle, rgba(255,255,255,.07) 1px, transparent 1px);
-        background-blend-mode: multiply;
-        background-size: cover, 28px 28px;
-        background-position: center, 0 0;
-      */
+      /* HERO_BG_IMAGE */
+      background-image: linear-gradient(rgba(18,30,90,.72), rgba(18,30,90,.72)), url('brand_assets/ai-images/hero.jpg');
+      background-size: cover;
+      background-position: center;
     }
 
     .hero-logo {
@@ -764,13 +759,9 @@
     </div>
 
     <div class="img-frame reveal">
-      <div class="about-img">
-        <!--
-          ABOUT_IMAGE: reemplazar span por:
-          <img src="foto-local.jpg" alt="Interior de Kraft" style="width:100%;height:100%;object-fit:cover;">
-          y quitar display:flex del .about-img
-        -->
-        <span>Foto del local</span>
+      <div class="about-img" style="display:block;">
+        <!-- ABOUT_IMAGE -->
+        <img src="brand_assets/photos/food.jpg" alt="Platos de Kraft Coffee Deli" style="width:100%;height:100%;object-fit:cover;" />
       </div>
     </div>
   </div>
@@ -824,49 +815,49 @@
     </div>
     <div class="galeria-grid reveal">
 
-      <!-- GALLERY_IMG_1: reemplazar gal-placeholder por <img src="foto1.jpg" alt="..."> -->
+      <!-- GALLERY_IMG_1 — burger real del local -->
       <div class="gal-item">
-        <div class="gal-placeholder">Galería 1</div>
+        <img src="brand_assets/photos/burger.jpg" alt="Burger Kraft" />
         <div class="gal-overlay"><div class="gal-icon">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
         </div></div>
       </div>
 
-      <!-- GALLERY_IMG_2 -->
+      <!-- GALLERY_IMG_2 — platos reales del local -->
       <div class="gal-item">
-        <div class="gal-placeholder">Galería 2</div>
+        <img src="brand_assets/photos/meals.jpg" alt="Platos Kraft" />
         <div class="gal-overlay"><div class="gal-icon">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
         </div></div>
       </div>
 
-      <!-- GALLERY_IMG_3 -->
+      <!-- GALLERY_IMG_3 — dishes reales del local -->
       <div class="gal-item">
-        <div class="gal-placeholder">Galería 3</div>
+        <img src="brand_assets/photos/dishes.jpg" alt="Dishes Kraft" />
         <div class="gal-overlay"><div class="gal-icon">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
         </div></div>
       </div>
 
-      <!-- GALLERY_IMG_4 -->
+      <!-- GALLERY_IMG_4 — croissants (AI) -->
       <div class="gal-item">
-        <div class="gal-placeholder">Galería 4</div>
+        <img src="brand_assets/ai-images/gallery-1.jpg" alt="Croissants Kraft" />
         <div class="gal-overlay"><div class="gal-icon">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
         </div></div>
       </div>
 
-      <!-- GALLERY_IMG_5 -->
+      <!-- GALLERY_IMG_5 — smoothie (AI) -->
       <div class="gal-item">
-        <div class="gal-placeholder">Galería 5</div>
+        <img src="brand_assets/ai-images/gallery-2.jpg" alt="Bebidas Kraft" />
         <div class="gal-overlay"><div class="gal-icon">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
         </div></div>
       </div>
 
-      <!-- GALLERY_IMG_6 -->
+      <!-- GALLERY_IMG_6 — postre (AI) -->
       <div class="gal-item">
-        <div class="gal-placeholder">Galería 6</div>
+        <img src="brand_assets/ai-images/gallery-4.jpg" alt="Postres Kraft" />
         <div class="gal-overlay"><div class="gal-icon">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
         </div></div>
